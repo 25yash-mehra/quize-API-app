@@ -1,0 +1,67 @@
+/* QuizeApp.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quize-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .quize-container h1 {
+    font-size: 1.5em;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .quize-container button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quize-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .quize-container button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  .quize-container .next-button {
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #28a745;
+  }
+  
+  .quize-container .next-button:hover {
+    background-color: #218838;
+  }
+  
+  .quize-container .next-button:focus {
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+  }
+  
+  .quize-container .loading {
+    font-size: 1.5em;
+    color: #999999;
+  }
+  

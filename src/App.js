@@ -1,9 +1,13 @@
 import React from 'react'
-import Musicplayer from './components/Musicplayer'
+import Quize from './components/Quize'
+// import Musicplayer from './components/Musicplayer'
 
 function App() {
   return (
-    <Musicplayer/>
+    // <Musicplayer/>
+    <>
+      <Quize/>
+    </>
   )
 }
 
